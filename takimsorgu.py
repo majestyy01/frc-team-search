@@ -65,7 +65,7 @@ root.title("Takım Bilgi Sorgulama - WoxicDEV")
 logoo = tk.PhotoImage(file="logooo.png")  
 root.tk.call('wm', 'iconphoto', root._w, logoo)
 
-# Arka plan rengini gri yap
+# arka plan rengini buradan değiştirebilirsiniz
 root.configure(bg="gray")
 
 label_team_number = tk.Label(root, text="Takım Numarası:", fg="white", bg="black")
